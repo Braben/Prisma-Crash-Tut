@@ -1,6 +1,7 @@
 import { PrismaClient } from "@prisma/client";
-import { title } from "process";
 const prisma = new PrismaClient();
+
+//just uncomment the code you want to run
 
 async function main() {
   //create a new user
